@@ -283,7 +283,31 @@
                         <h1 class="text-center text-white mb-4">Stay Always In Touch</h1>
                         <p class="text-white mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo</p>
                         <div class="position-relative w-100 mt-3">
-                            
+                                            <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="send.php" method = "POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" id="name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" id="subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." id="message" required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
         <!-- Newsletter End -->
 
 
